@@ -4,6 +4,27 @@
 <div class="container">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
+            <ul class="col-md-4">
+                <span>Super Administrator</span>
+                <li>superadministrator@app.com</li>
+                <li>password</li>
+            </ul>
+            <ul class="col-md-4">
+                <span>Administrator</span>
+                <li>administrator@app.com</li>
+                <li>password</li>
+            </ul>
+            <ul class="col-md-4">
+                <span>User</span>
+                <li>user@app.com</li>
+                <li>password</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
                 <div class="panel-heading">Login</div>
 

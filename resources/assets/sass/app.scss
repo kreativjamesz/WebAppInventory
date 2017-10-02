@@ -5,8 +5,10 @@
 // Variables
 @import "variables";
 
-// Bootstrap
-// import "~bootstrap-sass/assets/stylesheets/bootstrap";
+// Bootstrap 3
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
 
-// Botostrap 5
-@import "node_modules/bootstrap/scss/bootstrap";
+// Botostrap 4
+// import "node_modules/bootstrap/scss/bootstrap";
+
+@import "modifers";
