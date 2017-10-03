@@ -16,6 +16,9 @@ try {
     // Bootstrap 4
     // window.Popper = require('popper.js');
     // require('bootstrap');
+
+    // Quagga Barcode Scanner
+    require('quagga').default;
 } catch (e) {}
 
 /**
