@@ -36,7 +36,37 @@
 				<div class="panel panel-default">
 					<div class="panel-heading"><a href="{{route('product.create')}}" class="btn btn-primary pull-right" ><em class="fa fa-arrow-left">&nbsp;</em> Back</a>Product Form</div>
 					<div class="panel-body">
-						Basic panel example
+						<div class="row">
+							<div class="col-md-8">
+			              		<div class="form-group">
+			              			<label for="input" class="col-md-3 control-label">Category:</label>
+			              			<div class="col-md-4">
+			              				<select name="" id="input" class="form-control" required="required">
+			              					<option value="top">Tops</option>
+			              					<option value="top">Bottom</option>
+			              					<option value="top">Dress</option>
+			              					<option value="top">Accessories</option>
+			              				</select>
+			              			</div>
+			              		</div>
+		              		</div>
+							<div class="col-md-offset-1 col-md-3">
+								<div class="image-upload ">
+							        <div>
+							            <div>
+							              <div>
+							                <i class="icon-image default-image"></i>
+							              </div>
+							              <div>
+							                <label class="text-muted drag-text">Drag here to upload </label> <br>
+							                <a class="small">(or) Browse</a>
+							              </div>
+							            </div>
+							            <span id="upload"><input accept="image/gif,image/jpeg,image/png,image/bmp,image/jpg" type="file" id="ember1277" class="form-control upload ember-view"></span>
+							        </div>
+							      </div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
